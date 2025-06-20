@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Entreprise H.P.B Braquier Arnaud</title>
+<link href="style1.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="contact-bar">
+<span><a aria-label="Appeler le 06 35 50 62 51" href="tel:+33635506251">📞 06.35.50.62.51</a></span>
+<span><a href="mailto:ent.hpb88@orange.fr">✉️ ent.hpb88@orange.fr</a></span>
+</div>
+</header>
+<main>
+<div class="content">
+<img alt="" class="logoentreprise" src="logoentreprisehpb.jpeg">
+<ul class="menuaccueil">
+<li><a href="index.html">Accueil</a></li>
+<li class="has-submenu">
+<a>Fermetures</a>
+<ul class="submenu">
+<li><a href="fenetres.html">Fenêtres</a></li>
+<li><a href="portesgarage.html">Portes de garage</a></li>
+<li><a href="portesentree.html">Portes d'entrée</a></li>
+</ul>
+</li>
+<li><a href="clotures.html">Clôtures</a></li>
+<li><a href="plomberie.html">Plomberie</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<h1>H.P.B Arnaud<br>BRAQUIER</h1>
+<hr class="underline">
+<section class="project fenetres"><h2>Exemples de poses de fenêtres, volets et stores</h2><div class="images"><figure><img alt="Pose d’un volet roulant motorisé avec capteur solaire intégré." src="fenetre1.jpg"><figcaption>Pose d’un volet roulant motorisé.</figcaption></figure><figure><img alt="Installation d’une grille de sécurité sur fenêtre, design en rayon de soleil." src="fenetre2.jpg"><figcaption>Installation d’une grille de sécurité sur fenêtre, design en rayon de soleil.</figcaption></figure><figure><img alt="Pose de stores intérieurs jour/nuit sur fenêtres PVC." src="fenetre3.jpg"><figcaption>Pose d'une fenêtre avec store intérieur.</figcaption></figure></div></section></div>
+</main>
+<div class="back-button">
+<a class="btn-back" href="index.html">← Retour à l'accueil</a>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const submenuTrigger = document.querySelector(".has-submenu > a");
+    submenuTrigger.addEventListener("click", function (e) {
+      e.preventDefault();
+      this.parentElement.classList.toggle("open");
+    });
+  });
+</script>
+
+<footer class="footer">
+<div class="footer-content">
+<p>© 2025 H.P.B Braquier Arnaud</p>
+<nav class="footer-links">
+<a href="mentions-legales.html">Mentions légales</a> |
+<a href="politique-confidentialite.html">Politique de confidentialité</a>
+</nav>
+</div>
+</footer>
+</body>
+</html>
