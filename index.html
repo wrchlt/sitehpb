@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Entreprise H.P.B Braquier Arnaud</title>
+<link href="style1.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="contact-bar">
+<span><a aria-label="Appeler le 06 35 50 62 51" href="tel:+33635506251">📞 06.35.50.62.51</a></span>
+<span><a href="mailto:ent.hpb88@orange.fr">✉️ ent.hpb88@orange.fr</a></span>
+</div>
+</header>
+<main>
+<div class="content">
+<img alt="" class="logoentreprise" src="logoentreprisehpb.jpeg">
+<ul class="menuaccueil">
+<li><a href="index.html">Accueil</a></li>
+<li class="has-submenu">
+<a>Fermetures</a>
+<ul class="submenu">
+<li><a href="fenetres.html">Fenêtres</a></li>
+<li><a href="portesgarage.html">Portes de garage</a></li>
+<li><a href="portesentree.html">Portes d'entrée</a></li>
+</ul>
+</li>
+<li><a href="clotures.html">Clôtures</a></li>
+<li><a href="plomberie.html">Plomberie</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<h1>H.P.B Arnaud<br>BRAQUIER</h1>
+<div class="accueil-intro">
+<p class="accroche">L’entreprise au service de votre <span>confort</span> et de votre <span>sécurité </span>!</p>
+</div>
+<hr class="underline">
+<p class="description">
+                Chez H.P.B Arnaud BRAQUIER, nous offrons des solutions pour tous vos besoins en fermetures (fenêtres, portes de garage, portes...), clôtures, 
+                plomberie en nous engageant à fournir un travail de qualité, alliant esthétique, sécurité et durabilité.
+</p>
+<div class="services-accueil">
+<a href="portesentree.html" class="service-box"><div>🚪</div><p>Fermetures</p><small class="sous-label">(volets, portes, fenêtres...)</small></a>
+<a href="portesgarage.html" class="service-box"><div>🏠</div><p>Portes de garage</p></a>
+<a href="clotures.html" class="service-box"><div>🚧</div><p>Clôtures</p></a>
+<a href="plomberie.html" class="service-box"><div>🔧</div><p>Plomberie</p></a>
+</div>
+</div>
+</main>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const submenuTrigger = document.querySelector(".has-submenu > a");
+    submenuTrigger.addEventListener("click", function (e) {
+      e.preventDefault();
+      this.parentElement.classList.toggle("open");
+    });
+  });
+</script>
+
+<footer class="footer">
+<div class="footer-content">
+<p>© 2025 H.P.B Braquier Arnaud</p>
+<nav class="footer-links">
+<a href="mentions-legales.html">Mentions légales</a> |
+<a href="politique-confidentialite.html">Politique de confidentialité</a>
+</nav>
+</div>
+</footer>
+</body>
+</html>
